@@ -474,11 +474,8 @@ const ProductPage: React.FC = () => {
               <p>
                 <span className="font-semibold text-ink">Other Ingredients:</span> {product.otherIngredients}
               </p>
-              <p className="pt-2 border-t border-line/60">
-                <span className="font-semibold text-ink">0</span> Gluten · <span className="font-semibold text-ink">0</span> Dairy ·{' '}
-                {LABEL_CLAIMS.quality.join(' · ')}
-              </p>
-              <p className="italic">“{LABEL_CLAIMS.madeIn}”</p>
+             
+             
             </div>
           </div>
         </div>
