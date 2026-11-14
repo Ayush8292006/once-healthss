@@ -471,7 +471,7 @@ const buildInfoSections = (p: BaseProduct): Product['infoSections'] => [
       `${p.capsules} capsules — ${p.supplyDays}-day supply (${p.servingSize} per serving)`,
       '0 Gluten · 0 Dairy',
       'Third party tested · cGMP-certified facility',
-      LABEL_CLAIMS.madeIn,
+      
       `Distributed by ${DISTRIBUTOR.name}, ${DISTRIBUTOR.address.join(', ')}`,
       'Coming soon on Amazon — Subscribe & Save at launch',
     ],

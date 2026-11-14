@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { products, LABEL_CLAIMS, LABEL_CAUTION } from '../data/products';
+import { products, LABEL_CAUTION } from '../data/products';
 import { productStats } from '../data/stats';
 import { StatCounters } from '../components/StatCounters';
 import { SEO } from '../components/SEO';

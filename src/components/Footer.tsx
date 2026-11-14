@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight, Check, Instagram, Twitter, Facebook } from 'lucide-react';
 import { ConcentricRings } from './ConcentricRings';
 import { AMAZON_STORE_URL, AMAZON_LIVE } from '../data/amazon';
-import { DISTRIBUTOR, LABEL_CLAIMS } from '../data/products';
+import { DISTRIBUTOR } from '../data/products';
 
 export const Footer: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -218,12 +218,7 @@ export const Footer: React.FC = () => {
           <p className="text-ink-muted/80">
             Consult a healthcare professional before use if you are under 18, pregnant or breastfeeding, taking medication, or have a medical condition. Keep out of reach of children. Do not use if safety seal is damaged or missing. Store in a cool, dry place.
           </p>
-          <p className="text-ink-muted/80">
-            “{LABEL_CLAIMS.madeIn}” Distributed by {DISTRIBUTOR.name}, {DISTRIBUTOR.address.join(', ')} ·{' '}
-            <a href={`mailto:${DISTRIBUTOR.email}`} className="underline hover:text-ink transition-colors">
-              {DISTRIBUTOR.email}
-            </a>
-          </p>
+        
         </div>
 
         {/* Bottom copyright row */}
