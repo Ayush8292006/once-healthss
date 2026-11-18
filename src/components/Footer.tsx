@@ -218,7 +218,15 @@ export const Footer: React.FC = () => {
           <p className="text-ink-muted/80">
             Consult a healthcare professional before use if you are under 18, pregnant or breastfeeding, taking medication, or have a medical condition. Keep out of reach of children. Do not use if safety seal is damaged or missing. Store in a cool, dry place.
           </p>
-        
+          <p className="text-ink-muted/80">
+            “Proudly manufactured in India using globally sourced ingredients.” Distributed by {DISTRIBUTOR.name}, 30 N Gould St Ste R, Sheridan, WY 82801 ·{' '}
+            <a
+              href="mailto:support@oncehealth.co"
+              className="font-semibold text-brand-green underline hover:text-ink transition-colors"
+            >
+              support@oncehealth.co
+            </a>
+          </p>
         </div>
 
         {/* Bottom copyright row */}
